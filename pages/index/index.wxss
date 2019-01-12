@@ -1,0 +1,24 @@
+/**index.wxss**/
+page{background: #333;}
+
+.title{
+  font-size: 50rpx;
+  color:white;
+  line-height: 100rpx;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+image{
+  width: 300rpx;
+  height:300rpx;
+
+}
+
+.top,.bot{text-align: center}
+
+.bot image{margin: 0 20rpx}
+.bot{margin: 30rpx 0;}
+
+.btn{width:80%;}
+.active{background:lawngreen; color:white}

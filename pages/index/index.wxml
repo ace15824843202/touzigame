@@ -1,0 +1,15 @@
+<!--index.wxml-->
+
+<view class="title">点数为：{{score}}</view>
+<view>
+   <view class='top'>
+      <image src='/image/{{onePic}}'></image>
+   </view>
+
+   <view class='bot'>
+      <image src='/image/{{twoPic}}'></image>
+      <image src='/image/{{threePic}}'></image>
+   </view>
+</view>
+
+<button class='btn {{activeClass}}' bind:tap="getImage">{{btnTxt}}</button>
